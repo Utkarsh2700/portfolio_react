@@ -285,12 +285,12 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="md:justify-self-end flex flex-col">
+            <div className="xl:justify-self-end flex flex-col">
               <div className="pb-4">
                 <div style={{ opacity: 1 }}>
                   <span className="text-white/90">Get in touch</span>
                 </div>
-                <div className="text-2xl md:text-4xl font-bold py-2">
+                <div className="text-2xl xl:text-4xl font-bold py-2">
                   <div style={{ opacity: 1 }}>
                     <div className="relative overflow-hidden whitespace-pre">
                       <span className="inline-block whitespace-">
