@@ -15,7 +15,7 @@ export const user = {
       contactEmail: "meutkarshsharma@gmail.com",
       avatar: {
         public_id: "portfolio3/1713995155677-122l5x.webp",
-        url: "/avatarImage.jpg",
+        url: "./avatarImage.jpg",
       },
       alternateAvatars: [
         {
@@ -414,7 +414,7 @@ export const user = {
         sequence: 15,
         image: {
           public_id: "1706285511679-xe7r9t",
-          url: "/exclusiveCart.png",
+          url: "./exclusiveCart.png",
         },
         description:
           "Developed fully responsive ecommerce website using ReactJs,Redux,React-Router,ShadCn,Tailwind,Firebase with varoius functionalites like login,signup,add to cart, add to favorites etc.",

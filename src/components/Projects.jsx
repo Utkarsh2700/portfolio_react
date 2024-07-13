@@ -5,8 +5,6 @@ import { user } from "../index";
 function Projects() {
   const [selectedFilter, setSelectedFilter] = useState("All");
 
-  console.log(user.user.projects);
-
   const filterProjects = (filter) => {
     // Update the selected filter
     setSelectedFilter(filter);
@@ -25,7 +23,6 @@ function Projects() {
       project.techStack.some((stack) => stack.trim() === selectedFilter)
     );
   };
-  console.log(getFilteredProjects());
 
   return (
     <section
